@@ -2,10 +2,10 @@
 Author: Rohan Henry
 Date Created: December 03, 2023
 Course: ITT103
-Purpose: To reserve bus seats on three different types of buses
+Purpose: Reserve bus seats on three different types of buses
 '''
 
-#Global variables
+#Global variables for report
 fclass_reservation_type = ""
 fclass_total_seat_count = 0
 fclass_total_seats_reserved = 0
@@ -256,7 +256,7 @@ def main_menu():
     print("######       UCC Signature Expres Ltd      ######")
     print("######      Ride in comfort and style      ######")
     print("\nBus Reservation Provisioning System")
-    while True:
+    while True:                 #Create infinite loop for menu until quit
         print("\n***Select Reservation Option***\n")
         print("First Class (F/f)")
         print("Business Class (B/b)")
