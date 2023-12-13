@@ -113,8 +113,7 @@ def total_seats(bus):
 
 #The display_seats function uses on of the class bus array to display seat grid for a specific bus
 def display_seats(bus):
-    print("\nBus Seating")
-    for row in bus:
+   for row in bus:
         print(row)
     print("\n")
 
@@ -137,6 +136,7 @@ def fclass_reserve():
     fclass_reservation_type = "First Class"
 
     while True:
+        print("\n27 seat bus")
         display_seats(fclass_seat_array)
         try:
             #Call the total_seats function to get total seats on a bus
@@ -179,6 +179,7 @@ def bclass_reserve():
 
 
     while True:
+        print("\n38 seat bus")
         display_seats(bclass_seat_array)
         try:
             #Call the total_seats function to get total seats on a bus
@@ -220,6 +221,7 @@ def eclass_reserve():
     eclass_reservation_type = "Economy Class"
 
     while True:
+        print("\n56 seat bus")
         display_seats(eclass_seat_array)
         try:
             #Call the total_seats function to get total seats on a bus
